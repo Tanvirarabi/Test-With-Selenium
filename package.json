@@ -1,15 +1,23 @@
 {
   "name": "selenium",
   "version": "1.0.0",
-  "description": "",
+  "description": "Selenium test automation",
   "license": "ISC",
   "author": "arabi",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node q1test.js",
+    "test:q1": "node q1test.js",
+    "test:q2": "node q2test.js",
+    "test:q3": "node q3test.js",
+    "test:all": "node runAllTests.js",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
   },
   "dependencies": {
     "selenium-webdriver": "^4.43.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.25.0"
   }
 }

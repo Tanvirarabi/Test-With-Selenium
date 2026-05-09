@@ -1,0 +1,9 @@
+1.Answer to the question 1 is on the file name --> q1test.js
+
+2.Answer to the question 2 is on the file name --> q2test.js
+
+3.Answer to the question 3 is on the file name --> q3test.js
+
+4.All the packages and library are install packages.json file
+
+5.ALL TEST CASE ALLURE have file test_exceptional.js
